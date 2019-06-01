@@ -28,7 +28,7 @@ app.get('',(req,res)=>{
 app.get('/about',(req,resp)=>{
 
     resp.render('about',{
-        title:' About Page',
+        title:' About',
         name:'Harisha Rajam Swaminathan'
     })
 
@@ -36,7 +36,7 @@ app.get('/about',(req,resp)=>{
 app.get('/help',(req,res)=>{
 
     res.render('help',{
-        title:'Help Page',
+        title:'Help',
         name:'Harisha Rajam Swaminathan'
     })
 
